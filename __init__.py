@@ -1,4 +1,14 @@
+# -*- coding: utf-8 -*-
+"""
+This is a scprit to analyse HTS data from MSSR laboratory
+"""
+
+
 import glob, os, datetime, re
+
+# Two dimentioanl array support
+import numpy as np
+
 
 # This script is specifically designated for TREF conversion of AnalystGT readout to .CSV file
 # It can easily adjusted to parse any other AnalystGT file.
@@ -30,6 +40,18 @@ import glob, os, datetime, re
 # the script in a Python shell.
 #     
 
+class plate():
+    
+    def __init__(self):
+        
+        # Read plate file into a two dimentional data array 
+        
+        return
+    
+    def normalize(self):
+        return
+    
+    
 
     
 def main(directory, basename, outfile=('output.csv') ):
